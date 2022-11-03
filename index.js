@@ -1,4 +1,4 @@
-// CTP Systems DIO8008R or DIO8008RX
+// Arri Amira and Alexa Tally
 
 var tcp = require('../../tcp')
 var instance_skel = require('../../instance_skel')
