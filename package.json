@@ -1,0 +1,33 @@
+{
+	"name": "arri-tally",
+	"version": "1.0.0",
+	"api_version": "1.0.0",
+	"keywords": [
+		"Arri",
+		"Tally",
+		"Camera",
+		"Alexa",
+		"Amira"
+	],
+	"manufacturer": "Arri",
+	"product": [
+		"Alexa",
+		"Amira"
+	],
+	"shortname": "Arri Tally",
+	"description": "This module will allow you to control the Tally indicator on an Arri Amira or Alexa camera",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Peter Daniel",
+	"license": "MIT",
+	 "homepage": "https://github.com/bitfocus/companion-module-arri-tally#readme",
+	 "bugs": {
+		 "url": "https://github.com/bitfocus/companion-module-arri-tally/issues"
+	 },
+	 "repository": {
+		 "type": "git",
+		 "url": "git+https://github.com/bitfocus/companion-module-arri-tally.git"
+	 }
+ }
