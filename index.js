@@ -81,7 +81,7 @@ instance.prototype.init_tcp = function () {
 
 		self.socket.on('receiveline', function (line) {
 			debug('Response from device: ', line)
-			self.log('debug', line.toString())
+			// self.log('debug', line.toString())
 		})
 	}
 }
@@ -171,7 +171,7 @@ instance.prototype.action = function (action) {
 	var cmd
 
 	if (action.action === 'tally') {
-		cmd = 'tallyengage' + action.options.tallyState + '\r\n'
+		cmd = 'tallyengage ' + action.options.tallyState + '\r\n'
 	}
 
 	if (cmd !== undefined) {
