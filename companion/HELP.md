@@ -18,3 +18,7 @@ First Release
 ### Version 2.0.0
 Rewrite for Companion3
 
+### Version 2.0.1
+Add extra connection check
+
+### Version 2.0.2

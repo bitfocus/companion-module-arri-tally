@@ -3,7 +3,7 @@
 	"name": "arri-tally",
 	"shortname": "arri-tally",
 	"description": "This module will allow you to control the Tally indicator on an Arri Amira or Alexa camera",
-	"version": "2.0.0",
+	"version": "2.0.2",
 	"license": "MIT",
 	"repository": "git+https://github.com/bitfocus/companion-module-arri-tally.git",
 	"bugs": "https://github.com/bitfocus/companion-module-arri-tally/issues",
