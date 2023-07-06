@@ -86,8 +86,7 @@ class ArriTally extends InstanceBase {
 	
 	sendCommand(cmd) {
 		if (cmd !== undefined) {
-			if (this.socket !== undefined) {
-				// && this.socket.connected) {
+			if (this.socket !== undefined && this.socket.isConnected) {
 				this.log('debug', 'sending: ' + cmd)
 				this.socket.send(cmd)
 			} else {
@@ -98,7 +97,6 @@ class ArriTally extends InstanceBase {
 
 	init_tcp_variables() {
 		this.setVariableDefinitions([{ name: 'Last Response', variableId: 'tcp_response' }])
-
 		this.setVariableValues({ tcp_response: '' })
 	}
 }
