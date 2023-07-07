@@ -22,3 +22,4 @@ Rewrite for Companion3
 Add extra connection check
 
 ### Version 2.0.2
+Add presets for each tally state

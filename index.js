@@ -2,19 +2,21 @@
 import { InstanceBase, InstanceStatus, runEntrypoint, TCPHelper, UDPHelper } from '@companion-module/base'
 import { ConfigFields } from './config.js'
 import { updateActions } from './actions.js'
+import { updatePresets } from './presets.js'
 
 class ArriTally extends InstanceBase {
 	constructor(internal) {
 		super(internal)
 	
 		this.updateActions = updateActions.bind(this)
-		// this.updateVariables = updateVariables.bind(this)
+		this.updatePresets = updatePresets.bind(this)
 	}
 	
 	async init(config) {
 		this.config = config
 
 		this.updateActions()
+		this.updatePresets()
 
 		await this.configUpdated(config)
 	}
