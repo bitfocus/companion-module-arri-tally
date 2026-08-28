@@ -7,14 +7,14 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
-		 "type": "git",
-		 "url": "git+https://github.com/bitfocus/companion-module-arri-tally.git"
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-arri-tally.git"
 	},
 	"license": "MIT",
 	"dependencies": {
 		"@companion-module/base": "~1.4"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "~1.1"
+		"@companion-module/tools": "~2.8.0"
 	}
 }
