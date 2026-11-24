@@ -23,3 +23,6 @@ Add extra connection check
 
 ### Version 2.0.2
 Add presets for each tally state
+
+### Version 2.0.3
+Update node26
